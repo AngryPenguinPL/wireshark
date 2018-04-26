@@ -17,8 +17,8 @@ Group: 		Monitoring
 Url: 		http://www.wireshark.org
 Source0:	http://www.wireshark.org/download/src/%{name}-%{version}.tar.xz
 #Patch0:		wireshark_help_browser.patch
-Patch1:		wireshark-plugindir.patch
-Patch2:		wireshark-1.99.7-lua-5.3.patch
+#Patch1:		wireshark-plugindir.patch
+#Patch2:		wireshark-1.99.7-lua-5.3.patch
 Requires:	usermode-consoleonly
 Requires:	dumpcap
 Requires:	xdg-utils
@@ -287,8 +287,8 @@ it.
 %prep
 %setup -q -n %{name}-%{version}
 #patch0 -p0 -b .p0~
-%patch1 -p1 -b .p1~
-%patch2 -p1 -b .p2~
+#patch1 -p1 -b .p1~
+#patch2 -p1 -b .p2~
 
 # lib64 fix
 perl -pi -e "s|/lib\b|/%{_lib}|g" *

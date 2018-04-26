@@ -286,7 +286,7 @@ it.
 
 %prep
 %setup -q -n %{name}-%{version}
-%patch0 -p0 -b .p0~
+#patch0 -p0 -b .p0~
 %patch1 -p1 -b .p1~
 %patch2 -p1 -b .p2~
 

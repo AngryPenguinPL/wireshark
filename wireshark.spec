@@ -40,6 +40,10 @@ BuildRequires:	pkgconfig(lua)
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(portaudio-2.0)
 BuildRequires:	pkgconfig(zlib)
+BuildRequires:	qt5-linguist-tools
+BuildRequires:	pkgconfig(Qt5PrintSupport)
+BuildRequires:	pkgconfig(Qt5MultimediaWidgets)
+BuildRequires:	pkgconfig(Qt5Help)
 
 %track
 prog %{name} = {

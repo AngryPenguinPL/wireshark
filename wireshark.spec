@@ -36,7 +36,7 @@ BuildRequires:	qt5-devel
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(libgcrypt) >= 1.1.92
 BuildRequires:	pkgconfig(libsmi)
-BuildRequires:	pkgconfig(lua)
+BuildRequires:	pkgconfig(lua) < 5.3
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(portaudio-2.0)
 BuildRequires:	pkgconfig(zlib)
